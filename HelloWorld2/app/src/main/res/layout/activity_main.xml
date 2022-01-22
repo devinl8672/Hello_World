@@ -5,7 +5,7 @@
     android:id="@+id/background"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#50BFE6"
+    android:background="@color/cyan"
     tools:context=".MainActivity">
 
     <TextView
@@ -13,6 +13,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Hello From Devin!"
+        android:textColor="@color/black"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="70dp"
         android:textSize="70px" />
@@ -51,6 +52,31 @@
         android:layout_marginBottom="170dp"
         android:background="#FF6347"
         android:text="Change text"
+        android:textColor="@color/white"
+        android:padding="10dp"
+        android:layout_alignParentBottom="true"
+        android:textSize="70px" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_above="@id/button3"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:ems="10"
+        android:hint="Create your own text!" />
+
+    <TextView
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/editText"
+
+        android:layout_marginBottom="310dp"
+        android:background="#FF6347"
+        android:text="Change to your text"
         android:textColor="@color/white"
         android:padding="10dp"
         android:layout_alignParentBottom="true"
