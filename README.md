@@ -18,11 +18,11 @@ The following **optional** features are implemented:
 
 * [Y] User can tap a button to change the color of the background view.
 * [Y] User can tap a button to change the text string of the label - Android is Awesome!
-* [N] User can tap on the background view to reset all views to default settings.
-* [N] User can update the label text with custom text entered into the text field.
-  * [N] a. User can enter text into a text field using the keyboard.
-  * [N] b. User can tap the “Change text string” button to update the label with the text from the text field.
-  * [N] c. If the text field is empty, update label with default text string.
+* [Y] User can tap on the background view to reset all views to default settings.
+* [Y] User can update the label text with custom text entered into the text field.
+  * [Y] a. User can enter text into a text field using the keyboard.
+  * [Y] b. User can tap the “Change text string” button to update the label with the text from the text field.
+  * [Y] c. If the text field is empty, update label with default text string.
 
 The following **additional** features are implemented:
 
