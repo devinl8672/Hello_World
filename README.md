@@ -38,7 +38,7 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+There were too many links to look at that I was confused at first. I also couldn't find the video for the optional challenges orignally so I made my own solutions for a few of them. The link for creating the files for github was refering for an iOS project which was confusing and so was the README template.
 
 ## License
 
